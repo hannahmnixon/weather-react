@@ -35,10 +35,6 @@ export default function App(props) {
   return (
     <div className="App">
       <h1>Weather App</h1>
-      <a href="https://github.com/hannahmnixon/weather-react.git" alt="">
-        Coded by Hannah Nixon
-      </a>
-      <br />
       <form onSubmit={handleSubmit}>
         <input type="text" placeholder="Enter a city" onChange={updateChange} />
         <input type="submit" />
@@ -48,6 +44,10 @@ export default function App(props) {
       <h3>{humidity}</h3>
       <h3>{wind}</h3>
       <img src={icon} alt="" />
+
+      <a href="https://github.com/hannahmnixon/weather-react.git" alt="">
+        Coded by Hannah Nixon
+      </a>
     </div>
   );
 }
