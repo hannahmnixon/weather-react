@@ -38,6 +38,7 @@ export default function App(props) {
       <a href="https://github.com/hannahmnixon/weather-react.git" alt="">
         Coded by Hannah Nixon
       </a>
+      <br />
       <form onSubmit={handleSubmit}>
         <input type="text" placeholder="Enter a city" onChange={updateChange} />
         <input type="submit" />
